@@ -1,8 +1,10 @@
+import React from 'react';
 
-function App() {
+const Css = () => {
   return (
   
-<>
+      
+      <>
   <header className="hide-when-mobile">
     <h1>Courses 4 Arab</h1>
     <ul className="flex">
@@ -133,7 +135,7 @@ function App() {
     </div>
   </header>
   <main>
-    HOME page
+    Css page
   </main>
   <footer>
     Designed and developed by Courses4Arab.com
@@ -141,7 +143,8 @@ function App() {
   </footer>
 </>
 
+  
   );
 }
 
-export default App;
+export default Css;

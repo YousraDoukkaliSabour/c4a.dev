@@ -1,8 +1,10 @@
+import React from 'react';
 
-function App() {
+const Home = () => {
   return (
   
-<>
+      
+      <>
   <header className="hide-when-mobile">
     <h1>Courses 4 Arab</h1>
     <ul className="flex">
@@ -141,7 +143,8 @@ function App() {
   </footer>
 </>
 
+  
   );
 }
 
-export default App;
+export default Home;
